@@ -1,0 +1,276 @@
+﻿
+body 
+{
+    margin:0;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+header
+{
+    display:none;
+}
+
+.left 
+{
+    float: left;
+    width: 250px;
+    height: 600px;
+    margin-left: 50px;
+    background: rgba(0,0,0,0.5);
+    font-weight: bold;
+    text-align: center;
+}
+
+main 
+{
+    position: absolute;
+    left: 200px;
+    right: 600px;
+    width: auto;
+    height: 730px;
+}
+
+.right 
+{
+    float: right;
+    width: 250px;
+    height: 600px;
+    margin-right: 50px;
+    background: rgba(0,0,0,0.5);
+    font-weight:bold;
+    text-align: center;
+}
+
+footer 
+{
+    float: left;
+    padding-top: 350px;
+    clear: both;
+    font-size: 80%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.main
+{
+    width: 450px;
+    background: rgba(0,0,0,0.7);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.info 
+{
+    width: 450px;
+    background: rgba(0,0,0,0.5);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+    cursor: pointer;
+}
+
+#img 
+{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.main ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+.main li
+{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+.text
+{
+    text-align:center;
+    font-size: medium;
+}
+
+.main li a .img1
+{
+    display:none;
+}
+
+.main li a .img2
+{
+    display:none;
+}
+
+.main li a .img3
+{
+    display:none;
+}
+
+.ixAs
+{
+    display: none;
+}
+
+.main3 
+{
+    right: 300px;
+    width: 600px;
+    background: rgba(0,0,0,0.7);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Times New Roman'  , sans-serif;
+}
+
+.main2
+{
+    width: 550px;
+    background: rgba(0,0,0,0.7);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+.main1_1
+{
+    width: 630px;
+    float:left;
+    background: rgba(0,0,0,0.7);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Times New Roman', sans-serif;
+    display: grid;
+    grid-template-columns: 140px 127px 127px 127px 127px;
+    grid-template-rows: 100px 90px 90px 90px 90px 90px;
+    grid-template-areas:
+        "head head head head head "
+        "com tech tech per per"
+        "com tech tech per per"
+        "com tech tech per per"
+        "com tech tech per per"
+        "com tech tech per per";
+}
+
+.head3{ grid-area: head; border: 3px solid grey; margin-top: -20px;}
+.com{ grid-area: com;  border-bottom: 3px solid grey; border-right: 3px double grey; border-left: 3px solid grey; }
+.tech{ grid-area: tech;  border-right: 3px double grey; border-bottom: 3px solid grey;}
+.per{ grid-area: per;  border-right: 3px solid grey; border-bottom: 3px solid grey;}
+
+.main1_2
+{
+    width: 400px;
+    background: rgba(0,0,0,0.7);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Times New Roman', sans-serif;
+    display: grid;
+    grid-template-columns: 127px 127px 127px 127px 127px;
+    grid-template-rows: 100px 80px 80px 80px 80px 80px;
+    grid-template-areas:
+        "head head head head head "
+        "head1 head1 head1 head1 head1 "
+        "name year grade desc desc"
+        "name year grade desc desc"
+        "name year grade desc desc"
+        "name year grade desc desc" 
+        "name year grade desc desc"
+        "name year grade desc desc";
+}
+
+.head{ grid-area: head; border-bottom: 3px solid grey; margin-top: -40px;}
+.head1{ grid-area: head1; border-bottom: 3px double grey; border-right: 3px solid grey; border-left: 3px solid grey}
+.name{ grid-area: name;  border-bottom: 3px solid grey; border-right: 3px double grey; border-left: 3px solid grey;}
+.year{ grid-area: year;  border-right: 3px double grey; border-bottom: 3px solid grey;}
+.grade{ grid-area: grade;  border-right: 3px double grey; border-bottom: 3px solid grey;}
+.desc{ grid-area: desc;  border-right: 3px solid grey; border-bottom: 3px solid grey;}
+
+.gridBor
+{
+    border-bottom:  3px double grey;
+}
+
+.skillset
+{
+    margin-top: 1400px;
+}
+
+.footer a
+{
+    color:black;
+}
+
+.skillset a
+{
+    color: black;
+}
+
+table 
+{
+    color: black;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+tbody
+{
+    background-color: white;
+}
+
+thead 
+{
+    background-color: navajowhite;
+}
+
+th, td 
+{
+    border: 1px solid black;
+    padding: .2em 1em .2em .5em;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.middle-table
+{
+    text-align: center;
+}
+
+tbody tr .hah 
+{
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.color-table 
+{
+    background-color: navajowhite;
+}
+
+tfoot 
+{
+    background-color: navajowhite;
+    font-weight: bold;
+}
